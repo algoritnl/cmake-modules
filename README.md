@@ -60,7 +60,7 @@ This will work because the necessary CMake variables are created, such as:
     CMAKE_C_FLAGS_COVERAGE="-g -O0 --coverage"
     CMAKE_CXX_FLAGS_COVERAGE="-g -O0 --coverage"
     CMAKE_EXE_LINKER_FLAGS_COVERAGE="--coverage"
-    CMAKE_EXE_SHARED_FLAGS_COVERAGE="--coverage"
+    CMAKE_SHARED_LINKER_FLAGS_COVERAGE="--coverage"
 
 Notice that for instance `-g` is inherited from the Debug configuration.
 
